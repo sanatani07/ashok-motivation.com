@@ -1,0 +1,37 @@
+body {
+    padding: 2rem;
+    
+    background: hsl(198 17% 10%);
+    
+    color: hsl(27 98% 95%);
+    font: 1.2rem / 1.5 'Rubik', sans-serif;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    
+    > div {
+      flex: 1 1 20rem;
+      
+      padding: 2rem;
+      
+      background: hsl(198 17% 13%);
+      border-radius: 2rem;
+      
+      &:first-child {
+        flex-basis: 100%;
+      }
+      
+      *:last-child {
+        margin-bottom: 0;
+      }
+    }
+    
+    h1, h2 {
+      margin-top: 0;
+      
+      color: hsl(352 77% 60%);
+    }
+  }
